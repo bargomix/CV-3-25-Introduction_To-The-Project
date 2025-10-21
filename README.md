@@ -30,8 +30,8 @@
 1. Клонируйте репозиторий или перейдите в папку с проектом:
 
     ```bash
-    git clone https://github.com/yourusername/yourrepository.git
-    cd yourrepository
+    git clone https://github.com/bargomix/CV-3-25-Introduction_To-The-Project.git
+    cd CV-3-25-Introduction_To-The-Project.git
     ```
 
 2. Установите зависимости:
@@ -47,19 +47,18 @@ opencv-python==4.7.0.72
 ultralytics==8.0.40
 numpy==1.23.3
 argparse==1.4.0
-# Инструкция по использованию
 ```
 🏃‍♂️ **Использование**:
 
 Запустите утилиту, находясь в папке с проектом, с помощью команды:
 
 ```bash
-python your_script.py --video /path/to/video.mp4
+python road_safety_detection.py --video /path/to/video.mp4
 ```
 **Пример использования:**
 
 ```bash
-python your_script.py --video D:/project/task3/9.mp4
+python road_safety_detection.py --video D:/../CV-3-25-Introduction_To-The-Project/car.mp4
 ```
 🗒 **Примеры вывода:**
 
